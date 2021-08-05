@@ -1,10 +1,7 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .chatboxx {
@@ -14,6 +11,12 @@
     transform: translate(80%, 100%);
     height: 80vh;
     width: 70%;
+    /* z-index: 1050;
+        display: none;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        outline: 0; */
 }
 
 .topheaderchatbox {
