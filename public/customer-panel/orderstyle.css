@@ -392,12 +392,14 @@
 .opacity-0 {
   opacity: 0.8;
 }
+
 .scrolls {
   overflow-x: scroll;
   overflow-y: hidden;
   height: 150px;
   white-space: nowrap;
 }
+
 .wrapper {
   /* background:#EFEFEF;  */
   /* box-shadow: 1px 1px 10px #999;  */
@@ -411,6 +413,7 @@
   width: 100% !important;
   padding-top: 5px;
 }
+
 .productWidth {
   /* white-space: nowrap !important; */
   max-width: 300px !important ;
@@ -532,3 +535,20 @@
 /* tooltip css end  */
 
 /* junaid today chnage end  */
+
+
+.mobile-right-orders {
+  font-size: 25px !important;
+}
+
+.font-size-of-button {
+  font-size: 13px !important;
+} 
+
+.order-customer-main-fz {
+  font-size: 14px
+}
+
+.margin-negative-order-page {
+  margin-top: -20px !important;
+}

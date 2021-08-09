@@ -33,6 +33,3 @@ const openCity = (evt, cityName) => {
   };
 
   document.getElementById('defaultopen').click();
-
- 
-
