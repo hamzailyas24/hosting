@@ -106,11 +106,13 @@
 /* Style the Tab */
 
 /* gift card destop css  */
+
 .heading-gift-cart {
   font-size: 20px;
   font-weight: bolder;
   text-transform: capitalize;
 }
+
 .tab1 button.active {
   background-color: #fff;
   border-top: none !important;
@@ -120,6 +122,7 @@
   border-bottom: 2px solid #3866df !important;
   /* border-bottom: #3866df !important; */
 }
+
 .tab1 button {
   background: inherit !important;
   float: left;
@@ -129,9 +132,9 @@
   cursor: pointer;
   padding: 14px 16px;
   font-size: 18px !important;
-
   font-weight: bolder;
 }
+
 .tab1 {
   overflow: hidden;
   /* border-bottom: 1px solid #ccc; */
@@ -157,12 +160,6 @@
   font-size: 15px !important;
 }
 
-/* Change background color of buttons on hover */
-
-.tab button:hover {
-  /* background-color: #ddd; */
-}
-
 /* Create an active/current tablink class */
 
 .tab button.active {
@@ -172,7 +169,6 @@
   border-right: none !important;
   color: #3866df !important;
   border-bottom: 2px solid #3866df !important;
-  /* border-bottom: #3866df !important; */
 }
 
 /* Style the tab content */
@@ -180,7 +176,6 @@
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  /* border: 1px solid #ccc; */
   border-top: none;
 }
 
@@ -262,6 +257,7 @@
   font-size: 15px !important;
   color: #7e859b !important;
 }
+
 .horizontal-wrapper::-webkit-scrollbar-thumb {
   height: 10px;
   background-color: #7e859b6e;
@@ -291,22 +287,26 @@
   cursor: pointer;
   padding: 0 10px;
 }
+
 .orderFs {
   text-transform: uppercase;
   font-weight: bolder;
   color: #3866df;
   font-size: 16px;
 }
+
 .placeFz {
   text-transform: capitalize;
   font-weight: bolder;
   color: #7e859b;
   font-size: 14px;
 }
+
 .img-fz {
   height: 70px;
   width: 70px;
 }
+
 .multi-fz {
   font-size: 12px;
   text-transform: uppercase;
@@ -317,32 +317,33 @@
 .backlinear {
   padding: 20px 0;
   border-radius: 5px;
-  background: linear-gradient(
-    308.59deg,
-    rgb(236, 234, 123) 0%,
-    rgb(145, 208, 154) 100%
-  );
+  background: linear-gradient( 308.59deg, rgb(236, 234, 123) 0%, rgb(145, 208, 154) 100%);
 }
+
 .backlinearFont {
   color: #26272a;
   font-size: 17px;
   font-weight: bolder;
   text-transform: capitalize;
 }
+
 .backlinearPara {
   color: #26272a;
   font-size: 13px;
   font-weight: 600;
   text-transform: capitalize;
 }
+
 .fa-check-circle-o {
   font-size: 35px !important;
   color: #404553 !important;
 }
+
 .fa-circle-o-notch {
   font-size: 28px !important;
   color: #404553 !important;
 }
+
 .backlinearBtn {
   outline: none !important;
   background-color: #26272a;
@@ -354,6 +355,7 @@
   border: none;
   text-transform: capitalize;
 }
+
 .backlinearBtnLearn {
   outline: none !important;
   background: transparent;
@@ -364,6 +366,7 @@
   border: none;
   color: #26272a;
 }
+
 .dropdownbtn {
   background-color: #ffffff !important;
   text-transform: capitalize;
@@ -371,6 +374,7 @@
   font-size: 13px !important;
   border: 1px solid #4045534f !important;
 }
+
 .reviewBtn {
   background: transparent;
   color: #3866df;
@@ -381,14 +385,17 @@
   font-size: 13px;
   font-weight: 500;
 }
+
 .bg-white {
   box-shadow: rgb(175 130 130 / 20%) 0px 10px 20px -6px;
   border-radius: 5px;
 }
+
 .cancel-subtext {
   color: #ce0f0f;
   text-transform: uppercase;
 }
+
 .opacity-0 {
   opacity: 0.8;
 }
@@ -416,7 +423,7 @@
 
 .productWidth {
   /* white-space: nowrap !important; */
-  max-width: 300px !important ;
+  max-width: 300px !important;
   min-width: 300px;
   white-space: nowrap;
 }
@@ -424,10 +431,12 @@
 .fa-chevron-left {
   color: #404553 !important;
 }
+
 .placeorder {
   color: #7e859b;
   font-weight: 500;
 }
+
 .addresspara {
   color: #7e859b;
   font-size: 13px;
@@ -451,23 +460,23 @@
   border: none;
   border-radius: 5px;
 }
-.submitedBtn{
-    color: rgb(243, 172, 48);
-    background: rgb(255, 248, 236);;
-    font-size: 12px;
-    line-height: 14px;
-    text-align: center;
-    order: 0;
-    padding: 10px;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    border-radius: 5px;
 
+.submitedBtn {
+  color: rgb(243, 172, 48);
+  background: rgb(255, 248, 236);
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  order: 0;
+  padding: 10px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 5px;
 }
 
 /* tooltip css start  */
@@ -478,40 +487,28 @@
   margin-top: 0px;
   padding-bottom: 15px;
 }
-/* #toogle{
-    display: none;
 
-
-} */
-.t1:hover #toogle{
-    display: block;
-
+.t1:hover #toogle {
+  display: block;
 }
 
 .t2 {
-    display: none;
+  display: none;
   font-size: 12px !important;
   font-weight: normal !important;
   line-height: normal !important;
   align-items: center;
   border: 1px solid rgb(241, 243, 249) !important;
   color: #404553 !important;
-  /* text-align: center; */
   padding: 8px 3px 8px 10px;
   position: absolute;
   right: 0%;
-  /* transform: translateX(50%); */
   top: 80%;
-  /* transform: translateY(-50%); */
-
-
   width: 350px;
   border-radius: 5px;
   z-index: 11;
   background-color: white !important;
   box-shadow: rgb(0 0 0 / 10%) 0px 3px 6px;
-  
-  /* visibility: hidden; */
 }
 
 .t2 a {
@@ -520,30 +517,13 @@
   color: #3866df !important;
 }
 
-/* .t1 .t2::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-
-  left: 50%;
-  margin-left: -4px;
-  border-width: 10px;
-  border-style: solid;
-  border-color: white transparent transparent transparent;
-} */
-
-/* tooltip css end  */
-
-/* junaid today chnage end  */
-
-
 .mobile-right-orders {
   font-size: 25px !important;
 }
 
 .font-size-of-button {
   font-size: 13px !important;
-} 
+}
 
 .order-customer-main-fz {
   font-size: 14px
